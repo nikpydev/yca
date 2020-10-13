@@ -7,7 +7,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [images, setImages] = useState<Array<Image>>([]);
   const [element, setElement] = useState<any>(null);
-  const [modalVisible, setModalVisible] = useState(true);
+  const [modalVisible, setModalVisible] = useState(false);
 
   const [modalIdSent, setModalIdSent] = useState(1);
 
